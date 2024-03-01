@@ -2,7 +2,7 @@ schemaVersion: 2.2.0
 attributes:
   space:
     # regular, large, xlarge
-    instanceType: xlarge
+    instanceType: large
     editor:
       type: Fleet
 components:
